@@ -64,11 +64,14 @@
       .hamburger {
         width: 32px;
         height: 25px;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
 
+        @include mobile {
+          display: flex;
+        }
         span {
           width: 100%;
           height: 3px;
