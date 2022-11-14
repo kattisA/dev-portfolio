@@ -1,5 +1,4 @@
 import "./topbar.scss";
-import { GoPerson, GoMail } from "react-icons/go";
 
 function Topbar({ menuOpen, setMenuOpen }) {
     return (
@@ -9,20 +8,27 @@ function Topbar({ menuOpen, setMenuOpen }) {
                     <a href="#intro" className="logo">
                         Portfolio
                     </a>
-
                 </div>
                 <div className="right">
                     <div className="itemContainer">
-                        <span>About</span>
+                        <a href="#about" className="link">
+                            <span>About</span>
+                        </a>
                     </div>
                     <div className="itemContainer">
-                        <span>Work</span>
+                        <a href="#work" className="link">
+                           <span>Work</span>
+                        </a>
                     </div>
                     <div className="itemContainer">
-                        <img src="assets/github.png" alt="" />
-                        <img src="assets/linkedin.png" className="smaller" alt="" />
-                    </div>
+                        <a href="https://github.com/kattisA" target="_blank">
+                            <img src="assets/github.png" alt="github icon" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/lejonlidkatarina/" target="_blank">
+                            <img src="assets/linkedin.png" className="smaller" alt="linkedin icon" />
+                        </a>
 
+                    </div>
                     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
                         <span className="line2"></span>

@@ -27,8 +27,6 @@
         color: inherit;
         margin-right: 2.5rem;
       }
-
-
     }
 
     .right {
@@ -44,15 +42,19 @@
           display: none;
         }
 
+        .link {
+          text-decoration: none;
+          color: inherit;
+        }
+
+        img {
+          padding: 1rem;
+        }
+
         .smaller {
           width: 32px;
           height: 32px;
 
-        }
-
-        .icon {
-          font-size: 1.1rem;
-          margin-right: 0.3rem;
         }
 
         span {
