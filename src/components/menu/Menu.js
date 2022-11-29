@@ -3,24 +3,26 @@ import "./menu.scss";
 function Menu({ menuOpen, setMenuOpen }) {
   return (
     <div className={"menu " + (menuOpen && "active")}>
-      <p> hello there</p>
-     {/* <ul>
+      <ul>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#intro">Home</a>
+          <a href="#about">About</a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#work">Work</a>
         </li>
-        <li onClick={() => setMenuOpen(false)}>
-          <a href="#works">Works</a>
+        <li>
+            <a href="https://github.com/kattisA" target="_blank">
+                <img src="assets/github.png" alt="github icon" />
+                GitHub
+            </a>
         </li>
-        <li onClick={() => setMenuOpen(false)}>
-          <a href="#testimonials">Testimonials</a>
+        <li>
+            <a href="https://www.linkedin.com/in/lejonlidkatarina/" target="_blank">
+                <img src="assets/linkedin.png" className="smaller" alt="linkedin icon" />
+                LinkedIn
+            </a>
         </li>
-        <li onClick={() => setMenuOpen(false)}>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>*/}
+      </ul>
     </div>
   );
 }
