@@ -5,7 +5,15 @@ function About() {
     return (
         <>
             <div className="about" id="about">
-                About
+                <div className="left">
+
+                </div>
+                <div className="right">
+                    <div className="wrapper">
+                        <h1>About</h1>
+                        <p>This is a section about me</p>
+                    </div>
+                </div>
             </div>
         </>
     );
