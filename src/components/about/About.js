@@ -6,28 +6,17 @@ function About() {
         <>
             <div className="about" id="about">
                 <div className="left">
-                    <div className="image-gallery">
-                        <div className="column">
-                            <div className="image-item">
-                                <img src="assets/grid/kattis_omega.jpg" alt=""/>
-                                <img src="assets/grid/cookie.jpg" alt=""/>
-                                <img src="assets/grid/lukasz-szmigiel.jpg" alt=""/>
-                            </div>
-                        </div>
-                        <div className="column">
-                            <img src="assets/grid/goutham-krishna.jpg" alt=""
-                            />
-                            <img src="assets/grid/kattis_lejonlid.jpg" alt=""/>
-                            <img src="assets/grid/uwc_event.jpg" alt=""/>
-                            <img src="assets/grid/marvin-meyer.jpg" alt=""/>
-                        </div>
-                        <div className="column">
-                            <img src="assets/grid/goutham-krishna.jpg" alt=""
-                            />
-                            <img src="assets/grid/kattis_lejonlid.jpg" alt=""/>
-                            <img src="assets/grid/swans.jpg" alt=""/>
-                        </div>
-                    </div>
+                            <ul className="image-gallery">
+                                <li><img src="assets/grid/lukasz-szmigiel.jpg" alt=""/></li>
+                                <li><img src="assets/grid/kattis_omega.jpg" alt=""/></li>
+                                <li> <img src="assets/grid/cookie.jpg" alt=""/></li>
+                                <li> <img src="assets/grid/goutham-krishna.jpg" alt=""
+                                /></li>
+                                <li><img src="assets/grid/kattis_lejonlid.jpg" alt=""/></li>
+                                <li><img src="assets/grid/uwc_event.jpeg" alt=""/></li>
+                                <li> <img src="assets/grid/marvin-meyer.jpg" alt=""/></li>
+                                <li><img src="assets/grid/swans.jpg" alt=""/></li>
+                            </ul>
                 </div>
                 <div className="right">
                     <div className="wrapper">

@@ -11,29 +11,23 @@
     border: solid crimson;
 
     .image-gallery {
-      /* Mobile first */
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
       gap: 10px;
     }
 
-    .image-gallery .column {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
+    .image-gallery > li {
+      height: 300px;
+      cursor: pointer;
+      position: relative;
     }
 
-    .image-item img {
-      width: 100%;
-      border-radius: 5px;
-      height: 100%;
+    .image-gallery li img {
       object-fit: cover;
-    }
-
-    @media only screen and (min-width: 768px) {
-      .image-gallery {
-        flex-direction: row;
-      }
+      width: 100%;
+      height: 100%;
+      vertical-align: middle;
+      border-radius: 5px;
     }
 
   }
