@@ -6,16 +6,12 @@ function About() {
         <>
             <div className="about" id="about">
                 <div className="left">
-                            <ul className="image-gallery">
-                                <li><img src="assets/grid/lukasz-szmigiel.jpg" alt=""/></li>
-                                <li><img src="assets/grid/kattis_omega.jpg" alt=""/></li>
-                                <li> <img src="assets/grid/cookie.jpg" alt=""/></li>
-                                <li> <img src="assets/grid/goutham-krishna.jpg" alt=""
-                                /></li>
+                            <ul>
+                                <li className="hide-medium"> <img src="assets/grid/marvin-meyer.jpg" alt=""/></li>
+                                <li > <img src="assets/grid/sarah-dorweiler.jpg" alt=""/></li>
+                                <li className="hide-medium"><img src="assets/grid/kattis_omega.jpg" alt=""/></li>
                                 <li><img src="assets/grid/kattis_lejonlid.jpg" alt=""/></li>
-                                <li><img src="assets/grid/uwc_event.jpeg" alt=""/></li>
-                                <li> <img src="assets/grid/marvin-meyer.jpg" alt=""/></li>
-                                <li><img src="assets/grid/swans.jpg" alt=""/></li>
+                                <li className="hide-medium"><img src="assets/grid/uwc_event.jpeg" alt=""/></li>
                             </ul>
                 </div>
                 <div className="right">
