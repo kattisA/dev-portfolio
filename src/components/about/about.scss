@@ -21,6 +21,7 @@
       flex-wrap: wrap;
       flex-direction: row;
       gap: 1rem;
+      padding-top: 1rem;
     }
 
     li {
@@ -36,6 +37,7 @@
       max-height: 100%;
       object-fit: cover;
       vertical-align: bottom;
+      border-radius: 5%;
     }
 
     .hide-medium {
