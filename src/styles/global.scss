@@ -3,6 +3,8 @@
 $mobileWidth: 768px;
 $desktopWidth: 1024px;
 $largeWidth: 1530px;
+$topBarHeight: 70px;
+
 
 @mixin mobile {
   @media (max-width: #{$mobileWidth}) {

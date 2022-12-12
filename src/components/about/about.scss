@@ -8,7 +8,6 @@
   .left {
     flex: 0.6;
     overflow: hidden;
-    border: solid crimson;
 
     @include large {
     flex: 0.5;
@@ -51,7 +50,6 @@
   .right {
     flex: 0.4;
     position: relative;
-    border: solid steelblue;
 
     .wrapper {
       height: 100%;
