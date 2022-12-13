@@ -1,5 +1,6 @@
 import React from 'react';
 import "./about.scss";
+import { IoIosArrowDown } from "react-icons/io";
 
 function About() {
     return (
@@ -31,6 +32,9 @@ function About() {
                             optio perspiciatis praesentium quaerat sed velit voluptas voluptate voluptatibus.
                         </p>
                     </div>
+                    <a href="#work">
+                        <IoIosArrowDown className="icon" />
+                    </a>
                 </div>
             </div>
         </>

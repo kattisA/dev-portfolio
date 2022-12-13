@@ -64,5 +64,24 @@
       }
     }
 
+    a {
+      position: absolute;
+      bottom: 0.6rem;
+      left: 40%;
+
+      .icon {
+        font-size: 2.5rem;
+        color:black;
+        animation: arrowBlink 2s infinite;
+      }
+
+      @keyframes arrowBlink {
+        100%{
+          opacity: 0;
+        }
+
+      }
+    }
+
   }
 }
