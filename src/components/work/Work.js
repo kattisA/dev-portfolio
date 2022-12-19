@@ -7,19 +7,19 @@ function Work() {
 
     const cards = [
         {
-            id: 1,
+            id: "1",
             title: "VABbis",
             description: "An android app helping parents administrate the sick leave of their children",
             image: "assets/projects/vabbis.jpg"
         },
         {
-            id: 2,
+            id: "2",
             title: "Activity chooser",
             description: "An android app helping you pick random activities",
             image: "assets/projects/activities_start.png"
         },
         {
-            id: 3,
+            id: "3",
             title: "Dinner spinner",
             description: "Randomly choose your dinner! It can be whatever!",
             image: "assets/projects/dinner_spinner.png"
@@ -63,7 +63,6 @@ function Work() {
                                     alt="arrow"
                                     onClick={() => handleClick("right")}
                 />
-
             </div>
     );
 }
