@@ -9,18 +9,21 @@ function Work() {
         {
             id: "1",
             title: "VABbis",
+            icon: "assets/projects/vabbis-icon.png",
             description: "An android app helping parents administrate the sick leave of their children",
             image: "assets/projects/vabbis.jpg"
         },
         {
             id: "2",
             title: "Activity chooser",
+            icon: "assets/projects/activities-icon.png",
             description: "An android app helping you pick random activities",
             image: "assets/projects/activities_start.png"
         },
         {
             id: "3",
             title: "Dinner spinner",
+            icon: "assets/projects/dinnerspinner-icon.png",
             description: "Randomly choose your dinner! It can be whatever!",
             image: "assets/projects/dinner_spinner.png"
         }
@@ -43,7 +46,9 @@ function Work() {
                             <div className="card">
                                 <div className="left">
                                     <div className="leftContainer">
-                                        <div className="imgContainer">Hello</div>
+                                        <div className="imgContainer">
+                                            <img src={card.icon} alt={card.title + " icon"} />
+                                        </div>
                                         <h2>{card.title}</h2>
                                         <p>{card.description}</p>
                                     </div>
