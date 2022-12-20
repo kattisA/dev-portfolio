@@ -15,10 +15,10 @@
     overflow: hidden;
 
     @include large {
-    flex: 0.5;
-    padding: 2rem;
-    align-items: center;
-  }
+      flex: 0.5;
+      padding: 2rem;
+      align-items: center;
+    }
 
     ul {
       display: flex;
@@ -68,14 +68,15 @@
 
     .wrapper {
       height: 100%;
-      padding: 0 3.1rem 0 3.1rem ;
+      padding: 0 3.1rem 0 3.1rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
 
-      @include mobile{
+      @include mobile {
         align-items: center;
         font-size: 0.75rem;
+        height: auto;
       }
 
       .hide-small {
@@ -86,7 +87,7 @@
 
       h1 {
 
-        @include mobile{
+        @include mobile {
           font-size: 2rem;
           padding-bottom: 1rem;
         }
@@ -101,12 +102,12 @@
 
       .icon {
         font-size: 2.5rem;
-        color:black;
+        color: black;
         animation: arrowBlink 2s infinite;
       }
 
       @keyframes arrowBlink {
-        100%{
+        100% {
           opacity: 0;
         }
 
