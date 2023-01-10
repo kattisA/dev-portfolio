@@ -55,6 +55,8 @@ function Work() {
                                 </div>
                                 <div className="right">
                                     <img src={card.image} alt={card.title}/>
+                                    <h2 className="mobileCard">{card.title}</h2>
+                                    <p className="mobileCard">{card.description}</p>
                                 </div>
                             </div>
                         </div>

@@ -83,16 +83,15 @@
               justify-content: center;
 
               @include mobile {
-                width: 1.2rem;
-                height: 1.2rem;
+                width: 3rem;
+                height: 3rem;
               }
 
               img {
 
-
-                @include mobile {
+                /*@include mobile {
                   width: 15px;
-                }
+                }*/
               }
             }
 
@@ -100,7 +99,7 @@
               font-size: 2rem;
 
               @include mobile{
-                font-size: 0.8rem;
+                display: none;
               }
             }
             p {
@@ -123,14 +122,36 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          flex-direction: column;
           overflow: hidden;
 
+          .mobileCard {
+            display: none;
+
+            @include mobile {
+              display: flex;
+            }
+          }
+
+          h2 {
+
+            @include mobile{
+              font-size: 1rem;
+            }
+          }
+          p {
+
+            @include mobile{
+              font-size: 0.8rem;
+            }
+          }
+
           //TODO Change the mobile cards to not include the images
-         /* img {
+          img {
             @include mobile {
               display: none;
             }
-          }*/
+          }
         }
       }
     }
