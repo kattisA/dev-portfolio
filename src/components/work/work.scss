@@ -28,7 +28,7 @@
   }
 
   .slider {
-    height: 350px;
+    height: 80%;
     display: flex;
     position: absolute;
     left: 0;
@@ -76,8 +76,8 @@
             justify-content: space-between;
 
             .imgContainer {
-              width: 3rem;
-              height: 3rem;
+              width: 5rem;
+              height: 5rem;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -97,14 +97,14 @@
             }
 
             h2 {
-              font-size: 1.2rem;
+              font-size: 2rem;
 
               @include mobile{
                 font-size: 0.8rem;
               }
             }
             p {
-              font-size: 0.8rem;
+              font-size: 1rem;
               @include mobile{
                 display: none;
               }
@@ -125,10 +125,12 @@
           justify-content: center;
           overflow: hidden;
 
-          img {
-            width: 400px;
-            transform: rotate(-10deg);
-          }
+          //TODO Change the mobile cards to not include the images
+         /* img {
+            @include mobile {
+              display: none;
+            }
+          }*/
         }
       }
     }
