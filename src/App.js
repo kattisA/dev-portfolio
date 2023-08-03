@@ -4,6 +4,7 @@ import Menu from "./components/menu/Menu";
 import {useState} from "react";
 import About from "./components/about/About";
 import Apps from "./components/apps/Apps";
+import Pages from "./components/pages/Pages";
 
 function App() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -14,6 +15,7 @@ function App() {
           <div className="sections">
               <About />
               <Apps />
+              <Pages/>
           </div>
       </div>
   );

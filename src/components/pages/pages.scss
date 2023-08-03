@@ -1,0 +1,45 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/global.scss";
+
+.pages {
+  background-color: $lavenderLight;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .row {
+    margin: 0 -0.31rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    &.active  {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0 0.63rem;
+
+      @include mobile {
+        width: 100%;
+        display: block;
+        margin-bottom: 1.25rem;
+      }
+
+      .card {
+        box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+        text-align: center;
+        background-color: $lightGrey;
+        margin: 1rem;
+      }
+    }
+  }
+
+}
