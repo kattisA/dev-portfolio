@@ -2,49 +2,33 @@ import React, {useState} from 'react';
 import "./pages.scss";
 
 function Pages() {
+    const pagesList = [
+        {
+            title: "Movie Search App",
+            description:"React and Bootstrap CSS application for searching for movies with the OMDB API.",
+            link:"https://kattisa.github.io/movie-app/"
+        },
+        {
+            title: "Marvel Search App",
+            description:"React and Semantic UI CSS application for searching Marvel characters using the Marvel API.",
+            link:"https://kattisa.github.io/marvel-search/"
+        }
+    ]
     return (
         <div className="pages" id="pages">
-            <h2>Responsive Column Cards</h2>
-            <p>Resize the browser window to see the effect.</p>
+            <h2>My pages</h2>
+            <p>Discover some of my different projects.</p>
 
             <div className="row">
-                <div className="column">
-                    <div className="card">
-                        <h3>Card 1</h3>
-                        <p>Discover the world of movies with our captivating Movie Search App!
-                            Powered by the OMDB API, this React-based application allows you to
-                            effortlessly explore an extensive database of films. With a user-friendly
-                            interface crafted using Bootstrap, you can search for your favorite movies,
-                            access detailed information, and even watch trailers.
-                            Experience the magic of cinema at your fingertips, as our app delivers
-                            an immersive movie-watching journey like never before!</p>
-                        <p>Some text</p>
+                {pagesList.map((page, index) => (
+                    <div className="column" key={index}>
+                        <div className="card">
+                            <h3>{page.title}</h3>
+                            <p>{page.description}</p>
+                            <a href={page.link} className="button">Visit page</a>
+                        </div>
                     </div>
-                </div>
-
-                <div className="column">
-                    <div className="card">
-                        <h3>Card 2</h3>
-                        <p>Some text</p>
-                        <p>Some text</p>
-                    </div>
-                </div>
-
-                <div className="column">
-                    <div className="card">
-                        <h3>Card 3</h3>
-                        <p>Some text</p>
-                        <p>Some text</p>
-                    </div>
-                </div>
-
-                <div className="column">
-                    <div className="card">
-                        <h3>Card 4</h3>
-                        <p>Some text</p>
-                        <p>Some text</p>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     );

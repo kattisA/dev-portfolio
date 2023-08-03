@@ -5,6 +5,11 @@ $desktopWidth: 1024px;
 $largeWidth: 1530px;
 $topBarHeight: 70px;
 
+body {
+  color: $deepGrey;
+}
+
+
 
 @mixin mobile {
   @media (max-width: #{$mobileWidth}) {
