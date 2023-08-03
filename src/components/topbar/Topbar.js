@@ -16,8 +16,8 @@ function Topbar({ menuOpen, setMenuOpen }) {
                         </a>
                     </div>
                     <div className="itemContainer">
-                        <a href="#work" className="link">
-                           <span>Work</span>
+                        <a href="#apps" className="link">
+                           <span>Apps</span>
                         </a>
                     </div>
                     <div className="itemContainer">

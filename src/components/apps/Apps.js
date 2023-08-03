@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import "./work.scss";
+import "./apps.scss";
 import {IoIosArrowForward, IoIosArrowBack} from "react-icons/io";
 
-function Work() {
+function Apps() {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const cards = [
@@ -36,7 +36,7 @@ function Work() {
     };
 
     return (
-            <div className="work" id="work">
+            <div className="apps" id="apps">
                 <div
                     className="slider"
                     style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -74,4 +74,4 @@ function Work() {
     );
 }
 
-export default Work;
+export default Apps;
