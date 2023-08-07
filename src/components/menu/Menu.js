@@ -13,6 +13,9 @@ function Menu({menuOpen, setMenuOpen}) {
                 <li onClick={() => setMenuOpen(false)}>
                     <a href="#pages">Pages</a>
                 </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#lectures">Lectures</a>
+                </li>
                 <li>
                     <a href="https://github.com/kattisA" target="_blank">
                         <img src="assets/github.png" alt="github icon"/>

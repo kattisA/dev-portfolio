@@ -8,7 +8,7 @@
   align-items: center;
 
   h2 {
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
   }
 
   .lectureList {
@@ -19,18 +19,23 @@
 
     .lectureItem {
       width: 100%;
-      max-width: 400px;
-      padding: 10px;
+      max-width: 25rem;
+      padding: 0.6rem;
       display: flex;
       align-items: center;
       justify-content: flex-start;
+
+      @include mobile {
+        display: block;
+        margin-left: 1rem;
+      }
 
       &:nth-child(odd) {
         background-color: $lavenderLight;
       }
 
       &:nth-child(even) {
-        background-color: $lightGrey;
+        background-color: $lavenderSuperLight;
       }
 
       .title {

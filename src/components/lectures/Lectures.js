@@ -13,6 +13,11 @@ function Lectures() {
             location: "Uppsala Women Coding",
             year: "2018"
         },
+        {
+            title: "Android Studio tool guide",
+            location:"Uppsala Women Coding @Consid",
+            year:"2019"
+        },
     ]
     return (
         <div className="lectures" id="lectures">

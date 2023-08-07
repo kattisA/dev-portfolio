@@ -47,13 +47,13 @@
           display: inline-block;
           padding: 0.5rem 1rem;
           background-color: $lavenderLight;
-          color: $deepGrey; // Set text color to white
+          color: $deepGrey;
           text-decoration: none;
           border-radius: 0.6rem;
-          transition: background-color 0.3s ease; // Add a smooth transition on hover
+          transition: background-color 0.3s ease;
 
           &:hover {
-            background-color: darken($whiteLight, 10%); // Create a darker shade for the hover effect
+            background-color: darken($whiteLight, 10%);
           }
         }
       }

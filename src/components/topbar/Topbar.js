@@ -26,6 +26,11 @@ function Topbar({ menuOpen, setMenuOpen }) {
                         </a>
                     </div>
                     <div className="itemContainer">
+                        <a href="#lectures" className="link">
+                            <span>Lectures</span>
+                        </a>
+                    </div>
+                    <div className="itemContainer">
                         <a href="https://github.com/kattisA" target="_blank">
                             <img src="assets/github.png" alt="github icon" />
                         </a>
