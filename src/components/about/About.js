@@ -33,7 +33,7 @@ function About() {
                         </p>
                     </div>
                     <div>
-                        <a href="#work">
+                        <a href="#apps">
                             <IoIosArrowDown className="icon" />
                         </a>
                     </div>
