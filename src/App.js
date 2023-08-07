@@ -5,6 +5,7 @@ import {useState} from "react";
 import About from "./components/about/About";
 import Apps from "./components/apps/Apps";
 import Pages from "./components/pages/Pages";
+import Lectures from "./components/lectures/Lectures";
 
 function App() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -16,6 +17,7 @@ function App() {
               <About />
               <Apps />
               <Pages/>
+              <Lectures/>
           </div>
       </div>
   );
