@@ -6,6 +6,7 @@ import About from "./components/about/About";
 import Apps from "./components/apps/Apps";
 import Pages from "./components/pages/Pages";
 import Lectures from "./components/lectures/Lectures";
+import Work from "./components/work/Work";
 
 function App() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -18,6 +19,7 @@ function App() {
               <Apps />
               <Pages/>
               <Lectures/>
+              <Work/>
           </div>
       </div>
   );

@@ -9,7 +9,9 @@ body {
   color: $deepGrey;
 }
 
-
+p, h2 {
+  padding: 0.5rem;
+}
 
 @mixin mobile {
   @media (max-width: #{$mobileWidth}) {
