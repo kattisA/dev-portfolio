@@ -39,14 +39,14 @@
         .button {
           display: inline-block;
           padding: 0.5rem 1rem;
-          background-color: $lavenderLight;
-          color: $deepGrey;
+          background-color: $mediumAshTeal;
+          color: $darkestGrey;
           text-decoration: none;
           border-radius: 0.6rem;
           transition: background-color 0.3s ease;
 
           &:hover {
-            background-color: darken($whiteLight, 10%);
+            background-color: lighten($mediumAshTeal, 10%);
           }
         }
       }
