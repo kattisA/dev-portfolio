@@ -22,7 +22,7 @@ function Pages() {
             <div className="row">
                 {pagesList.map((page, index) => (
                     <div className="column" key={index}>
-                        <div className="card">
+                        <div className="basicCard pageCard">
                             <h3>{page.title}</h3>
                             <p>{page.description}</p>
                             <a href={page.link} className="button">Visit page</a>

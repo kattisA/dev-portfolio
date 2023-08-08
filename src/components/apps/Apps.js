@@ -43,7 +43,7 @@ function Apps() {
                 >
                     {cards.map((card) => (
                         <div className="container">
-                            <div className="card">
+                            <div className="pageCard">
                                 <div className="left">
                                     <div className="leftContainer">
                                         <div className="imgContainer">

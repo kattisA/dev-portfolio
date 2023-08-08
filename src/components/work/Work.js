@@ -15,7 +15,6 @@ function Work() {
             description: "Description of job 2...",
             year:"2019-2022"
         },
-        // Add more items as needed
     ];
 
     return (
@@ -24,10 +23,11 @@ function Work() {
             <div className="row">
                 {workList.map((workItem, index) => (
                     <div className="column" key={index}>
-                        <div className="card">
-                            <h3>{workItem.title}</h3>
-                            <div>{workItem.year}</div>
-                            <p>{workItem.description}</p>
+                        <div className="basicCard workCard ">
+                            <div className="title">
+                                <h3>{workItem.title}</h3> {workItem.year}
+                            </div>
+                            <div>{workItem.description}</div>
 
                         </div>
                     </div>
