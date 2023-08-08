@@ -9,8 +9,9 @@ body {
   color: $deepGrey;
 }
 
-p, h2 {
+h1, h2 {
   padding: 0.5rem;
+  color: $darkestGrey;
 }
 
 @mixin mobile {
@@ -43,4 +44,8 @@ p, h2 {
   box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
   padding: 1rem;
   margin: 1rem;
+}
+
+.cardTitle {
+  color: $darkestPlum;
 }

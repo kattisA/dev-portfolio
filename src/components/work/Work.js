@@ -24,8 +24,8 @@ function Work() {
                 {workList.map((workItem, index) => (
                     <div className="column" key={index}>
                         <div className="basicCard workCard ">
-                            <div className="title">
-                                <h3>{workItem.title}</h3> {workItem.year}
+                            <div className=" title">
+                                <h3 className="cardTitle">{workItem.title}</h3> {workItem.year}
                             </div>
                             <div>{workItem.description}</div>
 

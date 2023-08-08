@@ -2,14 +2,14 @@
 @import "../../styles/global.scss";
 
 .work {
-  background-color: $lightGrey;
+  background-color: $lightestGrey;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   a {
     text-decoration: none;
-    color: $darkPurple;
+    color: $darkestPlum;
   }
 
   .row {
@@ -38,7 +38,7 @@
       }
 
       .workCard {
-        background-color: $lavenderLight;
+        background-color: $veryLightPlum;
 
         .title {
           text-align: center;
