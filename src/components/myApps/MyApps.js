@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import "./apps.scss";
+import "./myApps.scss";
 import {IoIosArrowForward, IoIosArrowBack} from "react-icons/io";
 
-function Apps() {
+function MyApps() {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const cards = [
@@ -36,14 +36,14 @@ function Apps() {
     };
 
     return (
-            <div className="apps" id="apps">
+            <div className="myApps" id="myApps">
                 <div
                     className="slider"
                     style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
                 >
                     {cards.map((card) => (
                         <div className="container">
-                            <div className="pageCard">
+                            <div className="appsCard">
                                 <div className="left">
                                     <div className="leftContainer">
                                         <div className="imgContainer">
@@ -74,4 +74,4 @@ function Apps() {
     );
 }
 
-export default Apps;
+export default MyApps;

@@ -1,7 +1,7 @@
 @import "../../styles/_colors.scss";
 @import "../../styles/global.scss";
 
-.apps {
+.myApps {
   background-color: $lightGrey;
   display: flex;
   align-items: center;
@@ -19,11 +19,11 @@
     }
 
     &.left {
-      left: 100px;
+      left: 6.25rem;
     }
 
     &.right {
-      right: 100px;
+      right: 6.25rem;
     }
   }
 
@@ -46,19 +46,20 @@
       align-items: center;
       justify-content: center;
 
-      .pageCard {
-        width: 700px;
-        height: 100%;
-        background-color: white;
+      .appsCard {
+        width: 44rem;
+        height: 95%;
+        background-color: $whiteLight;
         border-radius: 1.2rem;
         display: flex;
         align-items: center;
         justify-content: center;
+        box-shadow: 0 0.25rem 0.5rem 0 $lightPlum;
 
         @include mobile {
           width: 80%;
-          height: 150px;
-          margin: 15px 0;
+          height: 9.3rem;
+          margin: 0.9rem 0;
         }
 
         .left {
@@ -97,6 +98,7 @@
 
             h2 {
               font-size: 2rem;
+              color: $darkestPlum;
 
               @include mobile{
                 display: none;
@@ -146,7 +148,6 @@
             }
           }
 
-          //TODO Change the mobile cards to not include the images
           img {
             @include mobile {
               display: none;

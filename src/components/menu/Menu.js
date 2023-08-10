@@ -8,7 +8,7 @@ function Menu({menuOpen, setMenuOpen}) {
                     <a href="#about">About</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#apps">Apps</a>
+                    <a href="#myApps">My Apps</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
                     <a href="#pages">Pages</a>
