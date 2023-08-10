@@ -18,19 +18,19 @@ function About() {
                 <div className="right">
                     <div className="wrapper">
                         <h1>About</h1>
-                        <p>
+                        <div className="text">
                             I'm a dynamic front-end developer with a passion for crafting beautiful and interactive
                             components that bring websites to life. Armed with a solid foundation in computer science
                             and a seamless transition from another industry, I bring a unique perspective to the world
                             of web development.
-                        </p>
-                        <p className="hide-small">
+                        </div>
+                        <div className="text hide-small">
                             I love staying updated with the latest technologies and tools, and I'm particularly
                             enthusiastic about version control with Git. Whether it's creating eye-catching UI/UX
                             designs or collaborating with fellow developers, I'm always eager to learn, grow,
                             and share my expertise. Catch me at meetups and lectures where we can geek out together
                             on all things front-end and Git!
-                        </p>
+                        </div>
                     </div>
                     <div>
                         <a href="#apps">

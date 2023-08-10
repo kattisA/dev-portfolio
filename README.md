@@ -4,7 +4,15 @@ An app highlighting skills and competences.
 
 ## Description
 
-A React app using Sass.
+A React app using Sass. With this tutorial I have learned more about:
+- React components
+- React Hooks
+- Sass/scss, variables, mixins and nesting
+- Flexbox
+- Pure CSS (not using any library)
+
+I also dived into Refactoring UI book and tried to apply some UX/UI color tricks to create 
+a more visually appealing site.
 
 ## Getting Started
 

@@ -73,9 +73,13 @@
       flex-direction: column;
       justify-content: center;
 
+      .text {
+        padding: 0.5rem 0.5rem;
+      }
+
       @include mobile {
         align-items: center;
-        font-size: 0.75rem;
+        font-size: 1rem;
         height: auto;
       }
 
@@ -98,12 +102,20 @@
     a {
       position: absolute;
       bottom: 0.6rem;
-      left: 40%;
+      left: 50%;
+
+        @include mobile {
+          left: 45%;
+        }
 
       .icon {
         font-size: 2.5rem;
-        color: black;
+        color: $deepDarkTeal;
         animation: arrowBlink 2s infinite;
+
+        @include mobile {
+          font-size: 2rem;
+        }
       }
 
       @keyframes arrowBlink {
