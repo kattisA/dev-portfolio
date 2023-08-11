@@ -18,6 +18,41 @@ function Lectures() {
             location:"Uppsala Women Coding @Consid",
             year:"2019"
         },
+        {
+            title: "How to use git on terminal",
+            location: "Omegapoint conference, 2020",
+            year: "2020",
+        },
+        {
+            title: "How to use git on terminal",
+            location: "Uppsala Women Coding, 2020",
+            year: "2020",
+        },
+        {
+            title: "JPA Data Query Creation",
+            location: "Omegapoint conference, 2021",
+            year: "2021",
+        },
+        {
+            title: "Learn the basics of Git",
+            location: "Uppsala Women Coding at Consid, 2022",
+            year: "2022",
+        },
+        {
+            title: "Gitk- five minute talk",
+            location: "Internal meeting at NBIS, 2022",
+            year: "2022",
+        },
+        {
+            title: "Terminal workshop for Uppsala women coding",
+            location: "2022",
+            year: "2022",
+        },
+        {
+            title: "Accessibility for front end developers",
+            location: "NBIS conference, 2023",
+            year: "2023",
+        },
     ]
     return (
         <div className="lectures" id="lectures">

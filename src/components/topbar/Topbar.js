@@ -6,7 +6,7 @@ function Topbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">
-                        Portfolio
+                        Katarina Lejonlid
                     </a>
                 </div>
                 <div className="right">

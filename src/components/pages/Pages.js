@@ -12,6 +12,11 @@ function Pages() {
             title: "Marvel Search App",
             description:"React and Semantic UI CSS application for searching Marvel characters using the Marvel API.",
             link:"https://kattisa.github.io/marvel-search/"
+        },
+        {
+            title: "Weather App",
+            description:"Weather app with React and Material Ui, using SMHI API for weather forecast.",
+            link:"https://kattisa.github.io/WeatherApp/"
         }
     ]
 
@@ -31,7 +36,7 @@ function Pages() {
     return (
         <div className="pages" id="pages">
             <h2>My pages</h2>
-            <p>Discover some of my different projects.</p>
+            <p>Discover some of my different projects. You can find the overview of my GitHub on my <a href="https://kattisa.github.io/">GitHub pages</a>.</p>
 
             <div className="row">
                 {pagesList.map((page, index) => (

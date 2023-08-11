@@ -12,8 +12,27 @@ function Work() {
         },
         {
             title: "System Developer Consultant at Omegapoint",
-            description: "Description of job 2...",
+            description: "System development of Web applications in health care. Working in agile teams as a full-stack developer. " +
+                "Techniques such as Java 11, Angular, React, Wicket 8, SQL, Hibernate, JPA, maven and docker. " +
+                "Atlassian tools stuck as Jira, Bitbucket and pipelines. Also Bamboo.\n" +
+                "\n" +
+                "Also experience of Android app in the field of health care. Android Studio, Gradle and Google Play Console.",
             year:"2019-2022"
+        },
+        {
+            title: "System DeveloperSystem Developer Aurora Innovation",
+            description: "System developer for cloud-based telephone solution Aurora TeleQ mainly building new features " +
+                "improving functionality and usability. Java and Ajax Web application framework (zk) with MVVM. MongoDB, " +
+                "Git, Angular, HTML, CSS, JavaScript.System developer for cloud-based telephone solution Aurora TeleQ " +
+                "mainly building new features improving functionality and usability. Java and Ajax Web application " +
+                "framework (zk) with MVVM. MongoDB, Git, Angular, HTML, CSS, JavaScript.",
+            year:"2018-2019"
+        },
+        {
+            title: "Previous work experience as analyst, evaluator and social worker",
+            description: "Started of as a social worker in the municipality of Uppsala and then worked as a research " +
+                "analyst and evaluator in the The National Board of Health and Welfare, a government agency in Sweden.",
+            year:"2004-2014"
         },
     ];
 
