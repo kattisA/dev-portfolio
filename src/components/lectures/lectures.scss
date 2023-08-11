@@ -19,15 +19,16 @@
 
     .lectureItem {
       width: 100%;
-      max-width: 25rem;
+      max-width: 50rem;
       padding: 0.6rem;
       display: flex;
       align-items: center;
       justify-content: flex-start;
+      box-shadow: 0.3rem 0 0.25rem -0.25rem $mediumAshTeal, -0.3rem 0 0.25rem -0.25rem $mediumAshTeal  ;
 
       @include mobile {
         display: block;
-        margin-left: 1rem;
+        width: 90%;
       }
 
       &:nth-child(odd) {
@@ -36,6 +37,11 @@
 
       &:nth-child(even) {
         background-color: $superLightAshTeal;
+      }
+
+      &:last-child {
+        box-shadow: 0 0.25rem 0.5rem 0 $mediumAshTeal;
+        margin-bottom: 0.6rem;
       }
 
       .title {
