@@ -4,14 +4,14 @@ import "./work.scss";
 function Work() {
     const workList = [
         {
-            title: "NBIS",
+            title: "Front end Developer at NBIS",
             description: "Front end development in scrum team in the field of bioinformatics, developing applications " +
                 "for researchers to present and visualize their data. Using new frameworks and libraries to maintain " +
                 "good knowledge of the field",
             year: "2022- "
         },
         {
-            title: "Job Title 2",
+            title: "System Developer Consultant at Omegapoint",
             description: "Description of job 2...",
             year:"2019-2022"
         },
@@ -37,6 +37,9 @@ function Work() {
                 Check out more details in my <a href="https://www.linkedin.com/in/lejonlidkatarina/" target="_blank">
                     LinkedIn
                 </a> account.
+            </div>
+            <div>
+               Acknowledgements: Marvin Mayer etc....
             </div>
         </div>
     );

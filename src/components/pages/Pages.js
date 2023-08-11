@@ -37,7 +37,7 @@ function Pages() {
                 {pagesList.map((page, index) => (
                     <div className="column" key={index}>
                         <div className="basicCard pageCard">
-                            <h3>{page.title}</h3>
+                            <h3 className="cardTitle">{page.title}</h3>
                             <div className="content">{page.description}</div>
                             <a href={page.link} className="button">  Visit page {arrowBox()}</a>
                         </div>
