@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import "./myApps.scss";
 import {IoIosArrowForward, IoIosArrowBack} from "react-icons/io";
+import {arrowBox} from "../pages/Pages";
 
 function MyApps() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -54,6 +55,7 @@ function MyApps() {
                                         </div>
                                         <h2>{card.title}</h2>
                                         <p>{card.description}</p>
+                                        <a href="https://play.google.com/store/apps/dev?id=7651662941074201152&hl=sv&gl=US" className="button">  Visit page </a>
                                     </div>
                                 </div>
                                 <div className="right">
