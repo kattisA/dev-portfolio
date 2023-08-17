@@ -8,11 +8,11 @@ function About() {
             <div className="about" id="about">
                 <div className="left">
                             <ul>
-                                <li className="hide-medium"> <img src="/assets/grid/marvin-meyer.jpg" alt=""/></li>
-                                <li className="hide-small"> <img src="/assets/grid/sarah-dorweiler.jpg" alt=""/></li>
-                                <li className="hide-medium"><img src="/assets/grid/kattis_omega.jpg" alt=""/></li>
-                                <li><img src="/assets/grid/kattis_lejonlid.jpg" alt=""/></li>
-                                <li className="hide-medium"><img src="/assets/grid/uwc_event.jpeg" alt=""/></li>
+                                <li className="hide-medium"> <img src="/assets/grid/marvin-meyer.jpg" alt="Office desk with computers"/></li>
+                                <li className="hide-small"> <img src="/assets/grid/sarah-dorweiler.jpg" alt="Vase and flower"/></li>
+                                <li className="hide-medium"><img src="/assets/grid/kattis_omega.jpg" alt="Picture of a smiling system developer"/></li>
+                                <li><img src="/assets/grid/kattis_lejonlid.jpg" alt="System developer and her coffee"/></li>
+                                <li className="hide-medium"><img src="/assets/grid/uwc_event.jpeg" alt="People attending a meet up"/></li>
                             </ul>
                 </div>
                 <div className="right">

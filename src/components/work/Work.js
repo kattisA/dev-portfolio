@@ -53,12 +53,12 @@ function Work() {
                 ))}
             </div>
             <div>
-                Check out more details in my <a href="https://www.linkedin.com/in/lejonlidkatarina/" target="_blank">
+                Check out more details in my <a href="https://www.linkedin.com/in/lejonlidkatarina/" target="_blank" rel="noreferrer">
                     LinkedIn
                 </a> account.
             </div>
             <div>
-               Acknowledgements: Marvin Mayer etc....
+               Acknowledgements for photographs: Marvin Mayer and Sarah Dorweiler.
             </div>
         </div>
     );

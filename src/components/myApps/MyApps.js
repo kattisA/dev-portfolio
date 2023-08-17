@@ -37,6 +37,9 @@ function MyApps() {
 
     return (
             <div className="myApps" id="myApps">
+                <div className="pageTitle">
+                    <h2>My apps</h2>
+                </div>
                 <div
                     className="slider"
                     style={{ transform: `translateX(-${currentSlide * 100}vw)` }}

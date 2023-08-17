@@ -8,6 +8,11 @@
   justify-content: center;
   position: relative;
 
+  .pageTitle {
+    position: absolute;
+    top: 0.5rem;
+  }
+
   .arrow {
     font-size: 5rem;
     position: absolute;

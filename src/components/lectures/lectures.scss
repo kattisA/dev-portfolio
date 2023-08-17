@@ -21,7 +21,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      box-shadow: 0.3rem 0 0.25rem -0.25rem $mediumAshTeal, -0.3rem 0 0.25rem -0.25rem $mediumAshTeal  ;
+      box-shadow: 0.3rem 0 0.25rem -0.25rem $mediumPlum, -0.3rem 0 0.25rem -0.25rem $mediumPlum  ;
 
       @include mobile {
         display: block;
@@ -29,15 +29,15 @@
       }
 
       &:nth-child(odd) {
-        background-color: $lightAshTeal;
+        background-color: $veryLightPlum;
       }
 
       &:nth-child(even) {
-        background-color: $superLightAshTeal;
+        background-color: $superLightPlum;
       }
 
       &:last-child {
-        box-shadow: 0 0.25rem 0.5rem 0 $mediumAshTeal;
+        box-shadow: 0 0.25rem 0.5rem 0 $mediumPlum;
         margin-bottom: 0.6rem;
       }
 
