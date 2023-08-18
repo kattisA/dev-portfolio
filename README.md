@@ -1,6 +1,9 @@
 # Portfolio for Katarina Lejonlid
 
-An application highlighting skills and competences in a portfolio style
+An application highlighting skills and competences in a portfolio style:
+![Application overview](./src/img/screenshot_app.png "Application overview")
+
+You can also visit the app on [dev-portfolio page](https://kattisa.github.io/dev-portfolio/).
 
 ## Description
 
@@ -22,6 +25,7 @@ and creating a palette with primary, accent and grey colors.
 There can always be improvements to everything. So here are some thoughs on that:
 - Making the app more consistent regarding the CSS
 - Extracting const into utils or similar (ex: pagesList)
+- More mobile view improvements
 
 
 ## Getting Started
