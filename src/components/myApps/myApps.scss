@@ -83,6 +83,7 @@
 
             .button {
               display: inline-block;
+              margin: 0.5rem;
               padding: 0.5rem;
               background-color: $mediumAshTeal;
               color: $darkestGrey;
@@ -90,6 +91,12 @@
               border-radius: 0.6rem;
               transition: background-color 0.3s ease;
               box-shadow: inset 0 1px 0 $lightAshTeal, 0 1px 3px $ashTeal;
+
+              @include mobile {
+                margin: 0.1rem;
+                padding: 0.4rem;
+                text-align: center;
+              }
 
               &:hover {
                 background-color: lighten($mediumAshTeal, 10%);
@@ -120,16 +127,18 @@
               font-size: 2rem;
               color: $darkestPlum;
 
-              @include mobile{
+              @include mobile {
                 display: none;
               }
             }
+
             p {
               font-size: 1rem;
-              @include mobile{
+              @include mobile {
                 display: none;
               }
             }
+
             span {
               font-size: 0.75rem;
               font-weight: 600;
@@ -138,6 +147,7 @@
             }
           }
         }
+
         .right {
           flex: 8;
           height: 100%;
@@ -157,13 +167,14 @@
 
           h2 {
 
-            @include mobile{
+            @include mobile {
               font-size: 1rem;
             }
           }
+
           p {
 
-            @include mobile{
+            @include mobile {
               font-size: 0.8rem;
             }
           }

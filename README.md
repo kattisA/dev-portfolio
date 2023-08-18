@@ -1,6 +1,6 @@
 # Portfolio for Katarina Lejonlid
 
-An app highlighting skills and competences.
+An application highlighting skills and competences in a portfolio style
 
 ## Description
 
@@ -10,9 +10,19 @@ A React app using Sass. With this tutorial I have learned more about:
 - Sass/scss, variables, mixins and nesting
 - Flexbox
 - Pure CSS (not using any library)
+- Making the site responsive using own CSS
+- Creating a better UI using multiple shades of color
 
 I also dived into Refactoring UI book and tried to apply some UX/UI color tricks to create 
-a more visually appealing site.
+a more visually appealing site. I looked for ways to implement different shades of colors 
+and creating a palette with primary, accent and grey colors.
+
+## Future improvements
+
+There can always be improvements to everything. So here are some thoughs on that:
+- Making the app more consistent regarding the CSS
+- Extracting const into utils or similar (ex: pagesList)
+
 
 ## Getting Started
 

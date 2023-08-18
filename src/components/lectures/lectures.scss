@@ -21,7 +21,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      box-shadow: 0.3rem 0 0.25rem -0.25rem $mediumPlum, -0.3rem 0 0.25rem -0.25rem $mediumPlum  ;
+      box-shadow: 0.3rem 0 0.25rem -0.25rem $mediumGrey, -0.3rem 0 0.25rem -0.25rem $mediumGrey;
 
       @include mobile {
         display: block;
@@ -33,11 +33,11 @@
       }
 
       &:nth-child(even) {
-        background-color: $superLightPlum;
+        background-color: $lightestGrey;
       }
 
       &:last-child {
-        box-shadow: 0 0.25rem 0.5rem 0 $mediumPlum;
+        box-shadow: 0 0.25rem 0.5rem 0 $mediumGrey;
         margin-bottom: 0.6rem;
       }
 
