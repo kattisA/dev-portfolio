@@ -1,6 +1,11 @@
 import React from 'react';
 import "./about.scss";
 import { IoIosArrowDown } from "react-icons/io";
+import kattis1 from "../../grid/kattis_omega.jpg";
+import kattis2 from "../../grid/kattis_lejonlid.jpg";
+import marvin from "../../grid/marvin-meyer.jpg";
+import sarah from "../../grid/sarah-dorweiler.jpg";
+import uwc from "../../grid/uwc_event.jpeg";
 
 function About() {
     return (
@@ -8,11 +13,11 @@ function About() {
             <div className="about" id="about">
                 <div className="left">
                             <ul>
-                                <li className="hide-medium"> <img src="/assets/grid/marvin-meyer.jpg" alt="Office desk with computers"/></li>
-                                <li className="hide-small"> <img src="/assets/grid/sarah-dorweiler.jpg" alt="Vase and flower"/></li>
-                                <li className="hide-medium"><img src="/assets/grid/kattis_omega.jpg" alt="Picture of a smiling system developer"/></li>
-                                <li><img src="/assets/grid/kattis_lejonlid.jpg" alt="System developer and her coffee"/></li>
-                                <li className="hide-medium"><img src="/assets/grid/uwc_event.jpeg" alt="People attending a meet up"/></li>
+                                <li className="hide-medium"> <img src={marvin} alt="Office desk with computers"/></li>
+                                <li className="hide-small"> <img src={sarah} alt="Vase and flower"/></li>
+                                <li className="hide-medium"><img src={kattis1} alt="Picture of a smiling system developer"/></li>
+                                <li><img src={kattis2} alt="System developer and her coffee"/></li>
+                                <li className="hide-medium"><img src={uwc} alt="People attending a meet up"/></li>
                             </ul>
                 </div>
                 <div className="right">
