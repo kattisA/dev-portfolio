@@ -12,9 +12,9 @@ function Work() {
         },
         {
             title: "System Developer Consultant at Omegapoint",
-            description: "System development of Web applications in health care. Working in agile teams as a full-stack developer. " +
+            description: "Full-stack System development of Web applications in health care " +
                 "Techniques such as Java 11, Angular, React, Wicket 8, SQL, Hibernate, JPA, maven and docker. " +
-                "Atlassian tools stuck as Jira, Bitbucket and pipelines. Also Bamboo.\n" +
+                "Atlassian tools stuck as Jira, Bitbucket and pipelines.\n" +
                 "\n" +
                 "Also experience of Android app in the field of health care. Android Studio, Gradle and Google Play Console.",
             year:"2019-2022"
@@ -23,9 +23,7 @@ function Work() {
             title: "System DeveloperSystem Developer Aurora Innovation",
             description: "System developer for cloud-based telephone solution Aurora TeleQ mainly building new features " +
                 "improving functionality and usability. Java and Ajax Web application framework (zk) with MVVM. MongoDB, " +
-                "Git, Angular, HTML, CSS, JavaScript.System developer for cloud-based telephone solution Aurora TeleQ " +
-                "mainly building new features improving functionality and usability. Java and Ajax Web application " +
-                "framework (zk) with MVVM. MongoDB, Git, Angular, HTML, CSS, JavaScript.",
+                "Git, Angular, HTML, CSS, JavaScript.",
             year:"2018-2019"
         },
         {
@@ -38,7 +36,7 @@ function Work() {
 
     return (
         <div className="work" id="work">
-            <h2>Work experience</h2>
+            <h2 className="workTitle">Work Experience</h2>
             <div className="row">
                 {workList.map((workItem, index) => (
                     <div className="column" key={index}>
@@ -52,14 +50,15 @@ function Work() {
                     </div>
                 ))}
             </div>
-            <div>
+            <div className="hide-mobile">
                 Check out more details in my <a href="https://www.linkedin.com/in/lejonlidkatarina/" target="_blank" rel="noreferrer">
-                    LinkedIn
-                </a> account.
+                LinkedIn
+            </a> account.
             </div>
-            <div>
-               Acknowledgements for photographs: Marvin Mayer and Sarah Dorweiler.
+            <div className="extra">
+                Acknowledgements for photographs: Marvin Mayer and Sarah Dorweiler.
             </div>
+
         </div>
     );
 }
